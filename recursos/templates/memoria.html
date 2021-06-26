@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block titulo %}Memoria{% endblock %}
+
+{% block contenido %}
+    <h2 class="titulo">Encuentra los pares</h2>
+    <form method="POST">
+        <div class="cartas"></div>
+        <input class="errores oculto" name="errores">
+        <input class="tiempo oculto" name="tiempo">
+    </form>
+{% endblock %}
+
+{% block js %}
+    <script>
+        var datos = "{{datos}}"
+    </script>
+    <script src="/static/js/memoria.js"></script>
+{% endblock %}

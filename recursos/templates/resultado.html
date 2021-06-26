@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block titulo %}Resultado{% endblock %}
+
+{% block contenido %}
+    <h3 class="titulo">Felicitaciones, has terminado</h3>
+    <h5 class="titulo">Resultados de Partida de {{partida["nombre"]}}:</h5>
+    <h5 class="titulo">Errores: {{partida["errores"]}}</h5>
+    <h5 class="titulo">Duración de {{partida["tiempo"]}} minutos</h5>
+    <a href="/Ranking" class="enlace"><button class="btn boton mx-auto">Ir al Ranking</button></a>
+{% endblock %}

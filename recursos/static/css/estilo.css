@@ -1,0 +1,78 @@
+body{
+    background-color: #d8d7d7;
+}
+
+.titulo{
+    color: #ce1b1b;
+}
+
+.contenedor-principal{
+    background-color: #ffffff;
+    width: 70%;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.contenedor-principal *{
+    margin: 20px 0px;
+}
+
+.entrada{
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ce1b1b;
+    color: #ce1b1b;
+}
+
+.entrada:focus{
+    outline: none;
+}
+
+.boton{
+    background-color: #ce1b1b;
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.boton:hover{
+    color: #ffffff;
+    background-color: #8c1010;
+}
+
+.contenedor-cartas{
+    background-color: #ffffff;
+    width: 70%;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.carta{
+    padding: 50px 30px;
+    margin: 20px;
+    transition: transform .1s;
+    transform: rotateY(180deg);
+    border-color: #ce1b1b;
+    color: #ce1b1b;
+}
+
+.carta:hover{
+    background-color: #c3c1c1;
+}
+
+.par-encontrado, .par-encontrado:hover{
+    background-color: rgb(129, 189, 129, 1);
+}
+
+.oculto{
+    display: none;
+}
+
+.cabecera-tabla{
+    color: #ce1b1b;
+}
+
+.enlace, .enlace:hover{
+    color: transparent;
+}

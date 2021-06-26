@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block titulo %}Ingreso{% endblock %}
+
+{% block contenido %}
+    <form method="POST">
+        <h2 class="titulo">Ingreso</h2>
+        <input type="text" name="nombre" placeholder="Nombre de Usuario" class="entrada text-center" required>
+        <input type="number" name="pares" min="5" max="50" placeholder="Ingresas el numero de pares" class="entrada text-center" required>
+        <button class="btn boton mx-auto">Ingresar</button>
+    </form>
+    <a href="/Ranking" class="enlace"><button class="btn boton mx-auto">Ir al Ranking</button></a>
+{% endblock %}
